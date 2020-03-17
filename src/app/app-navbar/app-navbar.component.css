@@ -17,3 +17,12 @@ li {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
+
+.links {
+    transition: color .5s;
+}
+
+.links:hover {
+    color: gray;
+    cursor: pointer;
+}
