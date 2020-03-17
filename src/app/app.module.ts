@@ -7,6 +7,7 @@ import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { AppHeroComponent } from './app-hero/app-hero.component';
 import { AppExpandareaComponent } from './app-expandarea/app-expandarea.component';
 import { AppContentComponent } from './app-content/app-content.component';
+import { AppFooterComponent } from './app-footer/app-footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppContentComponent } from './app-content/app-content.component';
     AppNavbarComponent,
     AppHeroComponent,
     AppExpandareaComponent,
-    AppContentComponent
+    AppContentComponent,
+    AppFooterComponent
   ],
   imports: [
     BrowserModule,
